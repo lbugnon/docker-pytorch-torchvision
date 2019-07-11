@@ -2,7 +2,7 @@
 FROM pytorch/pytorch:0.4.1-cuda9-cudnn7-devel
 
 RUN pip install -U pip
-RUN pip install pytorch
+RUN pip install torch
 RUN pip install torchvision
 RUN pip install pandas
 RUN pip install sklearn
