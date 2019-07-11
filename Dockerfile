@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	    wget
 
 
-RUN python3 -m pip install --U pip
+RUN python3 -m pip install -U pip
 RUN python3 -m pip install numpy
 RUN python3 -m pip install pandas
 RUN python3 -m pip install torch
