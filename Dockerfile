@@ -23,5 +23,6 @@ RUN python3 -m pip install torch
 RUN python3 -m pip install torchvision
 RUN python3 -m pip install sklearn
 RUN python3 -m pip install matplotlib
+RUN python3 -m pip install ipdb
 
 
