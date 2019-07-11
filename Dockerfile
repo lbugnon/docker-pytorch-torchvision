@@ -16,8 +16,7 @@ RUN wget --no-check-certificate http://www.python.org/ftp/python/3.7.4/Python-3.
 RUN tar -xf Python-3.7.4.tar.xz
 WORKDIR Python-3.7.4/
 RUN ./configure --enable-optimizations
-RUN make 
-RUN make test
+RUN make -j4
 RUN sudo make install
 
 RUN MKDIR /home/ada/
